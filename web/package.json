@@ -25,10 +25,14 @@
     "@sanity/client": "0.141.5",
     "animate.css": "^3.7.2",
     "babel-plugin-styled-components": "1.10.6",
+    "dom-to-image": "^2.6.0",
     "gatsby-image": "2.2.4",
     "gatsby-plugin-styled-components": "3.1.0",
     "gatsby-plugin-webfonts": "1.0.12",
     "gatsby-source-graphql": "2.1.0",
-    "styled-components": "4.3.2"
+    "konva": "^4.0.5",
+    "react-konva": "^16.9.0-0",
+    "styled-components": "4.3.2",
+    "use-image": "^1.0.4"
   }
 }
