@@ -1,0 +1,52 @@
+---
+info:
+  city: Toronto
+  link: Toronto
+  date: 12/12/2019
+  hour: '18:30'
+  icon: icons/toronto/toronto.svg
+  iconHover: icons/toronto/toronto-hover.svg
+  hostIcon: icons/stockholm/klarna.svg
+  hostName: Rangle
+  rsvpsClosed: false
+site:
+  city: Toronto
+  location: Rangle
+  organizers:
+  googleMapsLink: https://www.google.com/maps/place/Rangle.io/@43.6431721,-79.3822201,15z/data=!4m2!3m1!1s0x0:0xfa62ff9d72c3ed07?sa=X&ved=2ahUKEwiv96DTnvTkAhWsGTQIHXhjBpoQ_BIwDHoECAkQCA
+  calendarLink: 
+  cfp: false
+# mainOrganizer:
+#   - name: Aveline Estié
+#     main: true
+#     phoneNumber: '+46762305887'
+#     twitterHandle: avilene_
+#     email: aa.estie@gmail.com
+# organizers:
+#   - id: ae2d4158-cd43-4196-b88e-cb2afdbf6b4b
+#     name: Aveline Estié
+#     email: aa.estie@gmail.com
+#     twitterHandle: avilene_
+thanks: []
+sponsors:
+  - name: Rangle 
+    link: https://rangle.io/
+    media: https://rangle.io/images/mstile-310x310.png 
+  # - name: 
+  #   link: 
+  #   media: 
+speakers:
+  - name: 
+    twitterLink: 
+    talk: 
+  - name: 
+    talk: 
+    twitterLink: 
+  - name: 
+    twitterLink: 
+  - name: 
+    twitterLink: 
+    link: 
+    talk: 
+  - name: 
+    twitterLink: 
