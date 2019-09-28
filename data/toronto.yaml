@@ -6,7 +6,7 @@ info:
   hour: '18:30'
   icon: icons/toronto/toronto.svg
   iconHover: icons/toronto/toronto-hover.svg
-  hostIcon: icons/stockholm/klarna.svg
+  hostIcon: 
   hostName: Rangle
   rsvpsClosed: false
 site:
