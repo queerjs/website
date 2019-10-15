@@ -13,8 +13,8 @@ site:
   city: Munich
   location: Mayflower GmbH
   organizers: []
-  googleMapsLink: 
-  calendarLink: 
+  googleMapsLink: https://goo.gl/maps/tAyKgnf6jZRHciCb6
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+Munich&location=Mayflower+GmbH%2C+Landsberger+Str.+314%2C+80687+M%C3%BCnchen&dates=20200414T150000Z%2F20200414T180000Z
 mainOrganizer:
   - name: Carolyn Stransky
     main: true
