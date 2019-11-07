@@ -25,9 +25,9 @@ const FAQPage = () => {
         </Panel>
         <Panel heading="How can I get involved?">
           There are a lot of ways you could get involved with QueerJS! We're always looking for new locations to
-          host meetups, as well as folks on the ground to help coordinate and act as MCs for those meetups.
+          host meetups, as well as folks on the ground to act as local organizers and MCs.
           <br/><br/>
-          Coordination might involve working with your employers to provide a space, organizing catering for meetup
+          Involvement might mean working with your employers to provide a space, organizing catering for meetup
           attendees, ensuring that there is a livestream or opportunity to record the speakers, and generally working
           to ensure that the meetup runs smoothly.
           <br/><br/>
