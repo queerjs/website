@@ -6,7 +6,7 @@
     hour: '18:30'
     icon: icons/paris/paris.svg
     iconHover: icons/paris/paris-hover.svg
-    hostIcon: icons/paris/logo_newcrafts_blanc.png
+    hostIcon: icons/paris/logo_newcrafts_noir.png
     hostName: NewCrafts
     maxCapacity: 50
     food: true
