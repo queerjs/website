@@ -52,8 +52,9 @@ const GettingInvolvedPage = () => {
           Local organizers are the point people for any given QueerJS event, and are key to its success.
           If you would like to be a local organizer, you should be prepared to:
           <ul>
-            <li> Ensure there is adequate seating for the RSVP'd number of attendees at the selected venue </li>
-            <li> Coordinate recording of event (and individual speakers) with onsite hosts </li>
+            <li> Take point on finding a venue and date to hold the event. </li>
+            <li> Ensure there is adequate seating for the RSVP'd number of attendees at the selected venue. </li>
+            <li> Coordinate recording of event (and individual speakers) with onsite hosts, if possible. </li>
             <li> Coordinate food with onsite hosts, which may either be:
               <ul>
                 <li> Provided by onsite hosts </li>
