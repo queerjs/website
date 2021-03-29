@@ -6,6 +6,7 @@ info:
   hour: '22:30 CET'
   icon: icons/online/online.svg
   iconHover: icons/online/online-hover.svg
+  hostIcon: icons/online/logo_datadog.svg
   rsvpsClosed: false
   food: false
 site:
