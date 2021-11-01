@@ -12,19 +12,12 @@ info:
   maxCapacity: 50
 announcement:
   heading: COVID rules
-  text: This event will be 2G, which means that to enter the venue you'll be asked to show either proof of full vaccination or a positive PCR test that is from 28 to 180 days old. If you cannot be vaccinated due to health reasons, please contact us at hey@queerjs.com.
+  text: This event will be 2G, which means that to enter the venue you'll be asked to show a digital proof of either full vaccination or recovery from COVID. If you cannot be vaccinated due to health reasons, please contact us at hey@queerjs.com
 site:
   cfp: true
   location: c-base
   googleMapsLink: https://goo.gl/maps/uJwkaDcbk1yTosFG6
   calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+Berlin&location=Rungestra%C3%9Fe+20%2C+10179+Berlin&dates=20211208T180000Z%2F20211208T203000Z
-mainOrganizer:
-  - name: Sara Vieira
-    githubLink: SaraVieira
-    twitterHandle: '@NikkitaFTW'
-  - name: Carolyn Stransky
-    githubLink: SaraVieira
-    twitterHandle: '@NikkitaFTW'
 thanks:
   - id: 7e61667e-40cd-477e-9bcf-847a1265dae5
     link: https://c-base.org/
