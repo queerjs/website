@@ -22,9 +22,7 @@ const Main = ({ city, attendees }) => {
       />
       <section>
         <Heading sub="queerjs @">{info.city}</Heading>
-        { announcement &&
-          <Announcement message={announcement} />
-        }
+        {announcement && <Announcement message={announcement} />}
         <Info attendeesNumber={attendees.length} site={site} info={info} city={info.link} />
         <Panel heading="What?">
           {site.customDescription ? (
@@ -47,12 +45,12 @@ const Main = ({ city, attendees }) => {
         </Panel>
         {speakers.length > 0 || site.cfp ? (
           <Panel heading="Speakers">
-            <Speakers cfp={site.cfp} speakers={speakers.filter(s => !s.mc)} />
+            <Speakers cfp={site.cfp} speakers={speakers.filter((s) => !s.mc)} />
           </Panel>
         ) : null}
-        {speakers.filter(s => s.mc).length ? (
+        {speakers.filter((s) => s.mc).length ? (
           <Panel heading="MC">
-            <Speakers noSpeak cfp={site.cfp} speakers={speakers.filter(s => s.mc)} />
+            <Speakers noSpeak cfp={site.cfp} speakers={speakers.filter((s) => s.mc)} />
           </Panel>
         ) : null}
         {!site.rsvpLink ? (
@@ -60,11 +58,13 @@ const Main = ({ city, attendees }) => {
             <Attendees attendees={attendees} />
           </Panel>
         ) : null}
-        <Panel heading="Sponsors">
-          <Sponsors sponsors={sponsors} />
-        </Panel>
+        {sponsors && (
+          <Panel heading="Sponsors">
+            <Sponsors sponsors={sponsors} />
+          </Panel>
+        )}
         {mainOrganizer && mainOrganizer.length > 0 ? (
-          <Panel heading={mainOrganizer.length > 1 ? "Organizers" : "Organizer"}>
+          <Panel heading={mainOrganizer.length > 1 ? 'Organizers' : 'Organizer'}>
             <Organizers organizers={mainOrganizer} />
           </Panel>
         ) : null}

@@ -1,0 +1,31 @@
+---
+info:
+  city: Berlin
+  link: berlin-2021
+  date: 12/08/2021
+  hour: '19:00'
+  icon: icons/berlin/berlin.svg
+  iconHover: icons/berlin/berlin-hover.svg
+  hostIcon: icons/berlin/c-base.gif
+  hostName: c-base
+  food: true
+  maxCapacity: 50
+announcement:
+  heading: COVID rules
+  text: For this event we will use the 2G rules and this means that you are either fully vaccinated, or that you have a positive PCR test that is 28 to 180 days old. If for health reasons you cannot be vaccinated please contact us at hey@queerjs.com.
+site:
+  cfp: true
+  location: c-base
+  googleMapsLink: https://goo.gl/maps/uJwkaDcbk1yTosFG6
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+Berlin&location=Rungestra%C3%9Fe+20%2C+10179+Berlin&dates=20211208T180000Z%2F20211208T203000Z
+organizers:
+  - name: Sara Vieira
+    githubLink: SaraVieira
+    email: hey@iamsaravieira.com
+    twitterHandle: '@NikkitaFTW'
+thanks:
+  - id: 7e61667e-40cd-477e-9bcf-847a1265dae5
+    link: https://c-base.org/
+    name: c-base
+    reason: Space
+speakers: []
