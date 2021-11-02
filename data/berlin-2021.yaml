@@ -44,4 +44,8 @@ thanks:
     link: https://c-base.org/
     name: c-base
     reason: Space
-speakers: []
+speakers:
+  - name: Sara Vieira
+    twitterLink: NikkitaFTW
+    githubLink: saravieira
+    # talk: Technical Debt, Opening your eyes on what you don’t want to see, and how to act on it
