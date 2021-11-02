@@ -1,6 +1,6 @@
 import React from 'react'
 import useHover from '../../helpers/useHover'
-import Helmet from 'react-helmet';
+import Helmet from 'react-helmet'
 
 import { format } from 'date-fns'
 
@@ -30,12 +30,8 @@ const City = ({ past, city, link, date, bySeason, icon, iconHover, hostIcon, hos
         )}
       </CityIcon>
       <CityInfo>
-        <MeetupDate itemprop={date} content="2013-09-14T21:30" past={past}>
-          {bySeason ?
-            <span>{bySeason}</span>
-          :
-            format(date, 'Do MMMM')
-          }
+        <MeetupDate itemprop={date} content={date} past={past}>
+          {bySeason ? <span>{bySeason}</span> : format(date, 'Do MMMM YY')}
         </MeetupDate>
         <Name past={past} itemprop="name">
           {city}

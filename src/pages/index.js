@@ -8,16 +8,16 @@ import { isFuture, isToday, parse } from 'date-fns'
 import { graphql } from 'gatsby'
 
 const IndexPage = ({ data: { allEvent } }) => {
-  const getDate = date => parse(date, 'L', new Date())
-  const sortedCities = allEvent.edges.sort(
-    (a, b) => getDate(a.node.info.date) - getDate(b.node.info.date)
-  )
+  const getDate = (date) => parse(date, 'L', new Date())
+  const sortedCities = allEvent.edges
+    .sort((a, b) => getDate(a.node.info.date) - getDate(b.node.info.date))
+    .reverse()
 
   const futureMeetups = sortedCities.filter(
-    city => isFuture(city.node.info.date) || isToday(city.node.info.date)
+    (city) => isFuture(city.node.info.date) || isToday(city.node.info.date)
   )
   const pastMeetups = sortedCities.filter(
-    city => !isFuture(city.node.info.date) && !isToday(city.node.info.date)
+    (city) => !isFuture(city.node.info.date) && !isToday(city.node.info.date)
   )
 
   return (
