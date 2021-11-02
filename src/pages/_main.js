@@ -13,7 +13,11 @@ import Announcement from '../components/Announcement'
 
 const Main = ({ city, attendees }) => {
   const { site, thanks, speakers, sponsors, info, mainOrganizer, announcement } = city
-
+  const hasHeading = !site.fullDescription
+    ? {
+        heading: 'What?'
+      }
+    : {}
   return (
     <Layout>
       <SEO
@@ -24,10 +28,12 @@ const Main = ({ city, attendees }) => {
         <Heading sub="queerjs @">{info.city}</Heading>
         {announcement && <Announcement message={announcement} />}
         <Info attendeesNumber={attendees.length} site={site} info={info} city={info.link} />
-        {console.log(site.fullDescription)}
-        <Panel heading={site.fullDescription ? '' : 'What?'}>
+        <Panel {...hasHeading}>
           {site.customDescription ? (
-            <p dangerouslySetInnerHTML={{ __html: site.customDescription }}></p>
+            <p
+              className="custom-desc"
+              dangerouslySetInnerHTML={{ __html: site.customDescription }}
+            ></p>
           ) : (
             <p>
               This is a meetup where anyone is welcome to attend and support the speakers and the
