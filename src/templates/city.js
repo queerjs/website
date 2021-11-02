@@ -41,6 +41,7 @@ export const query = graphql`
         rsvpLink
         cfp
         customDescription
+        fullDescription
       }
       announcement {
         heading

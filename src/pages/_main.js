@@ -24,9 +24,10 @@ const Main = ({ city, attendees }) => {
         <Heading sub="queerjs @">{info.city}</Heading>
         {announcement && <Announcement message={announcement} />}
         <Info attendeesNumber={attendees.length} site={site} info={info} city={info.link} />
-        <Panel heading="What?">
+        {console.log(site.fullDescription)}
+        <Panel heading={site.fullDescription ? '' : 'What?'}>
           {site.customDescription ? (
-            <p>{site.customDescription}</p>
+            <p dangerouslySetInnerHTML={{ __html: site.customDescription }}></p>
           ) : (
             <p>
               This is a meetup where anyone is welcome to attend and support the speakers and the
