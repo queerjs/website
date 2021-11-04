@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 import Sponsors from '../components/Sponsors'
@@ -30,10 +30,10 @@ const Main = ({ city, attendees }) => {
         <Info attendeesNumber={attendees.length} site={site} info={info} city={info.link} />
         <Panel {...hasHeading}>
           {site.customDescription ? (
-            <p
+            <div
               className="custom-desc"
               dangerouslySetInnerHTML={{ __html: site.customDescription }}
-            ></p>
+            />
           ) : (
             <p>
               This is a meetup where anyone is welcome to attend and support the speakers and the
