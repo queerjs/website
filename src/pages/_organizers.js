@@ -1,8 +1,8 @@
 import {
   gayStripes,
-  aceStripes,
+  //  aceStripes,
   biStripes,
-  fluidStripes,
+  // fluidStripes,
   lesbianStripes,
   phillyStripes,
   transStripes,
@@ -59,7 +59,6 @@ export default {
   barcelona: [
     {
       name: 'Jeremias Menichelli',
-      twitterLink: 'jeremenichelli',
       twitterLink: 'jeremenichelli',
       colors: []
     },
