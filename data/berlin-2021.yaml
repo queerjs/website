@@ -48,4 +48,15 @@ speakers:
   - name: Sara Vieira
     twitterLink: NikkitaFTW
     githubLink: saravieira
-    # talk: Technical Debt, Opening your eyes on what you don’t want to see, and how to act on it
+  - name: Rebecca König
+    twitterLink: veubeke
+    githubLink: veu
+    talk: JavaScript on Feature Phones?
+  - name: Luna
+    twitterLink: lunafromthemoon
+    githubLink: lunafromthemoon
+    talk: RenJS, a visual novel creator made for writers
+  - name: Lidiia (Leda) Lazebnikova
+    twitterLink:
+    githubLink: thatleda
+    talk: Aspect-oriented programing in the JavaScript world
