@@ -2,7 +2,8 @@
 info:
   city: Berlin
   link: berlin-2022
-  date: "👀"
+  date: February 2022
+  bySeason: Start of 2022
   icon: icons/berlin/berlin.svg
   iconHover: icons/berlin/berlin-hover.svg
   hostIcon: icons/berlin/c-base.gif
