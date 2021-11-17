@@ -1,9 +1,9 @@
 ---
 info:
   city: Berlin
-  link: berlin-2021
-  date: 12/08/2021
-  hour: '19:00'
+  link: berlin-2022
+  date: February 2022
+  bySeason: Start of 2022
   icon: icons/berlin/berlin.svg
   iconHover: icons/berlin/berlin-hover.svg
   hostIcon: icons/berlin/c-base.gif
@@ -11,13 +11,12 @@ info:
   food: true
   maxCapacity: 50
 announcement:
-  heading: COVID rules
-  text: This event will be 2G, which means that to enter the venue you'll be asked to show a digital proof of either full vaccination or recovery from COVID. If you cannot be vaccinated due to health reasons, please contact us at hey@queerjs.com
+  heading: Postponed
+  text: Due to the rising numbers of covid cases in Germany and Berlin we have decided to postpone the event until february next year. Stay Safe
 site:
   cfp: true
   location: c-base
   googleMapsLink: https://goo.gl/maps/uJwkaDcbk1yTosFG6
-  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+Berlin&location=Rungestra%C3%9Fe+20%2C+10179+Berlin&dates=20211208T180000Z%2F20211208T203000Z
   fullDescription: true
   customDescription: "
   <h2>COVID Safety</h2>
