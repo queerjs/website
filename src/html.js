@@ -9,7 +9,11 @@ export default function HTML(props) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {props.headComponents}
-        <script src="https://cdn.usefathom.com/script.js" spa="auto" site="CJWCHZPC" defer></script>
+        <script
+          defer
+          data-domain="queerjs.com"
+          src="https://analytics.iamsaravieira.com/js/plausible.js"
+        ></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
