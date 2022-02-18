@@ -2,8 +2,6 @@ import React from 'react'
 import useHover from '../../helpers/useHover'
 import Helmet from 'react-helmet'
 
-import { format } from 'date-fns'
-
 import { Wrapper, sizes, CityInfo, CityIcon, Cities, Name, MeetupDate, Host } from './elements'
 
 const City = ({ past, city, link, date, bySeason, icon, iconHover, hostIcon, hostName }) => {
@@ -31,7 +29,7 @@ const City = ({ past, city, link, date, bySeason, icon, iconHover, hostIcon, hos
       </CityIcon>
       <CityInfo>
         <MeetupDate itemprop={date} content={date} past={past}>
-          {bySeason ? <span>{bySeason}</span> : format(date, 'Do MMMM YY')}
+          {bySeason ? <span>{bySeason}</span> : date}
         </MeetupDate>
         <Name past={past} itemprop="name">
           {city}

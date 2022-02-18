@@ -8,9 +8,8 @@ import { isFuture, isToday, parse } from 'date-fns'
 import { graphql } from 'gatsby'
 
 const IndexPage = ({ data: { allEvent } }) => {
-  const getDate = (date) => parse(date, 'L', new Date())
   const sortedCities = allEvent.edges
-    .sort((a, b) => getDate(a.node.info.date) - getDate(b.node.info.date))
+    .sort((a, b) => new Date(a.node.info.date) - new Date(b.node.info.date))
     .reverse()
 
   const futureMeetups = sortedCities.filter(

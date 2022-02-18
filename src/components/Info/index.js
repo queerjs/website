@@ -15,7 +15,7 @@ export default ({ site, city, info, attendeesNumber }) => {
   const closeRSVP =
     (info.maxCapacity && attendeesNumber >= info.maxCapacity) ||
     info.rsvpsClosed ||
-    isPast(parse(info.date))
+    isPast(parse(info.date, 'MM/dd/yyyy', new Date()))
 
   return (
     <>
@@ -27,15 +27,15 @@ export default ({ site, city, info, attendeesNumber }) => {
             {site.location}
           </a>
         </span>
-
+        {console.log(new Date(info.date))}
         <span>
-          {info.bySeason ?
+          {info.bySeason ? (
             <p>{info.bySeason}</p>
-          :
+          ) : (
             <a href={site.calendarLink} title="Add to Calendar">
-              {info.hour} {format(date, ['Do [of] MMMM '])}
+              {info.hour} {format(new Date(info.date), ["do 'of' MMMM"])}
             </a>
-          }
+          )}
         </span>
         <Calendar />
       </Info>
