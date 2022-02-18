@@ -27,7 +27,6 @@ export default ({ site, city, info, attendeesNumber }) => {
             {site.location}
           </a>
         </span>
-        {console.log(new Date(info.date))}
         <span>
           {info.bySeason ? (
             <p>{info.bySeason}</p>
