@@ -6,7 +6,7 @@ info:
   hour: '18:00'
   icon: icons/berlin/berlin.svg
   iconHover: icons/berlin/berlin-hover.svg
-  hostIcon: icons/berlin/pitch.svg
+  hostIcon: icons/berlin/pitch.png
   hostName: Pitch
   food: true
   maxCapacity: 50
