@@ -4,19 +4,18 @@ import Layout from '../containers/layout'
 import Panel, { LargeParagraph } from '../components/Panel'
 import City, { Cities } from '../components/City'
 
-import { isFuture, isToday, parse } from 'date-fns'
+import { isFuture, isToday } from 'date-fns'
 import { graphql } from 'gatsby'
 
 const IndexPage = ({ data: { allEvent } }) => {
   const sortedCities = allEvent.edges
     .sort((a, b) => new Date(a.node.info.date) - new Date(b.node.info.date))
     .reverse()
-
   const futureMeetups = sortedCities.filter(
-    (city) => isFuture(city.node.info.date) || isToday(city.node.info.date)
+    (city) => isFuture(new Date(city.node.info.date)) || isToday(new Date(city.node.info.date))
   )
   const pastMeetups = sortedCities.filter(
-    (city) => !isFuture(city.node.info.date) && !isToday(city.node.info.date)
+    (city) => !isFuture(new Date(city.node.info.date)) && !isToday(new Date(city.node.info.date))
   )
 
   return (

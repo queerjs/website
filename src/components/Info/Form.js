@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import createRecord from '../../helpers/airtable'
 import { Button, Form } from './elements'
 
-export default ({ onSubmit, city }) => {
+const Signup = ({ onSubmit, city }) => {
   const [name, setName] = useState('')
   const [gh, setGH] = useState('')
   const [plusOne, setPlusOne] = useState(false)
@@ -120,3 +120,5 @@ export default ({ onSubmit, city }) => {
     </Form>
   )
 }
+
+export default Signup

@@ -24,7 +24,7 @@ const dedupeAttendees = attendeesArray => {
   return deduped
 }
 
-export default ({ attendees }) => {
+const AttendeesComponent = ({ attendees }) => {
   const dedupedAttendees = dedupeAttendees(attendees)
 
   return (
@@ -47,3 +47,5 @@ export default ({ attendees }) => {
     </Attendees>
   )
 }
+
+export default AttendeesComponent

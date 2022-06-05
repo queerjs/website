@@ -18,9 +18,11 @@ const HugeTitle = styled.h1`
   margin: 4rem 0 2rem;
 `
 
-export default ({ children, sub }) => (
+const Heading = ({ children, sub }) => (
   <HugeTitle>
     {sub && <TitleChip>{sub}</TitleChip>}
     <TitleTitle>{children}</TitleTitle>
   </HugeTitle>
 )
+
+export default Heading

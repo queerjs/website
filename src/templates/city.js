@@ -2,13 +2,15 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Main from '../pages/_main'
 
-export default ({ data = {} }) => {
+const City = ({ data = {} }) => {
   const {
     event,
     allAirtable: { edges }
   } = data
   return <Main city={event} attendees={edges.map((edge) => edge.node)} />
 }
+
+export default City
 
 export const query = graphql`
   query($slug: String!) {
