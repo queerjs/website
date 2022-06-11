@@ -1,21 +1,20 @@
 import React, { useState } from 'react'
 import { format, parse, isPast } from 'date-fns'
 
-import RSVP from './Form'
+import Rsvp from './Form'
 import Flag from '../icons/flag'
 import Calendar from '../icons/calendar'
 
 import { Info, RsvpButton, Blinker, Bouncer } from './elements'
 
-export default ({ site, city, info, attendeesNumber }) => {
+const InfoComponent = ({ site, city, info, attendeesNumber }) => {
   const [open, setOpen] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
-  const date = parse(info.date, 'L', new Date())
   const closeRSVP =
     (info.maxCapacity && attendeesNumber >= info.maxCapacity) ||
     info.rsvpsClosed ||
-    isPast(parse(info.date, 'MM/dd/yyyy', new Date()))
+    isPast(new Date(info.date))
 
   return (
     <>
@@ -40,12 +39,12 @@ export default ({ site, city, info, attendeesNumber }) => {
       </Info>
       {!open ? (
         <RsvpButton
-          onClick={() => (!site.rsvpLink ? setOpen(true) : () => {})}
+          onClick={() => (!site.rsvpLink ? setOpen(true) : () => { })}
           style={
             submitted || closeRSVP
               ? {
-                  pointerEvents: 'none'
-                }
+                pointerEvents: 'none'
+              }
               : {}
           }
         >
@@ -74,7 +73,7 @@ export default ({ site, city, info, attendeesNumber }) => {
           )}
         </RsvpButton>
       ) : (
-        <RSVP
+        <Rsvp
           city={city}
           onSubmit={() => {
             setOpen(false)
@@ -85,3 +84,6 @@ export default ({ site, city, info, attendeesNumber }) => {
     </>
   )
 }
+
+
+export default InfoComponent

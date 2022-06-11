@@ -1,0 +1,48 @@
+---
+info:
+  city: Berlin
+  link: berlin-2022
+  date: 06/30/22
+  hour: '18:00'
+  icon: icons/berlin/berlin.svg
+  iconHover: icons/berlin/berlin-hover.svg
+  hostIcon: icons/berlin/pitch.png
+  hostName: Pitch
+  food: true
+  maxCapacity: 50
+  closeRSVP: false
+site:
+  cfp: true
+  location: Pitch
+  googleMapsLink: https://goo.gl/maps/wDoX6nuhEWgUrbV5A
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+Berlin&location=Joachimstra%C3%9Fe+7%2C+10119+Berlin&dates=20220630T160000Z%2F20220630T183000Z
+  fullDescription: true
+  customDescription: "
+  <h2>COVID Safety</h2>
+For health reasons we ask everyone to get a test on the day before the event. They are free in berlin and you can also get a home one, please contact us at hey@queerjs.com with any questions.
+<br/><br/>
+For COVID safety, the event is capped at 50 people and all windows will be opened.
+<br/><br/>
+  <h2>What?</h2>
+This is a meetup where anyone is welcome to attend and support the speakers and the idea but all the speakers will be Queer.
+<br/><br/>
+This meetup exists to give a voice to everyone, to make a safe space where everyone is welcome.
+  "
+thanks:
+  - id: 7e61667e-40cd-477e-9bcf-847a1265dae5
+    link: https://pitch.com
+    name: Pitch
+    reason: Space & Food
+speakers:
+  - name: Sara Vieira
+    twitterLink: NikkitaFTW
+    githubLink: saravieira
+  - name: Paweł Michalik
+    twitterLink: pmichk
+    githubLink: pmichk
+    talk: TIC-80 Tiny Computer
+  - name: Daniel P. Shannon
+    twitterLink: phyllisstein
+    githubLink: phyllisstein
+    talk: Merrily We Scroll Along
+  

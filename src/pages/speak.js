@@ -5,7 +5,7 @@ import Panel from '../components/Panel'
 
 import { RsvpButton, Blinker, Bouncer } from '../components/Info/elements'
 
-export default () => {
+const SpeakPage = () => {
   const { site } = {
     site: {
       title: 'QueerJS',
@@ -85,18 +85,18 @@ export default () => {
         </Panel>
         <Panel heading="How should I prepare for an online talk?" id="online-meetup-prep">
           There are several things to consider with an online talk.
-          
+
           <p>Do you want to present live the audience, or pre-record your talk? Each have benefits and drawbacks but the choice is up to you.</p>
-          
+
           <dl>
             <dt>Live presentation</dt>
             <dd>This is the best way to engage with your audience. Be wary that the stream may be delayed by a minute or more, so you will need to be creative with how you engage folks. You are welcome to post polls/games to the Twitch chat, for instance.</dd>
             <dt>Pre-recorded stream</dt>
             <dd>This is the best way to ensure your recording & technical setup is perfect. If you want to take this route, please provide a high quality mp4 before the meetup and the streamer will queue it for you. You will still be able to participate in Q&amp;A afterward.</dd>
           </dl>
-          
+
           <p>At the end of your talk we will include a Q&amp;A session with the MC via Zoom, which will include any questions and comments from the audience. If you want to opt out of this, please let us know.</p>
-          
+
           <p>Technical considerations:</p>
           <ol>
             <li>We use Skype for the livestream. If you want to call an organizer to get comfortable with the features, get in touch!</li>
@@ -127,3 +127,5 @@ export default () => {
     </Layout>
   )
 }
+
+export default SpeakPage
