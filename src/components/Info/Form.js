@@ -92,7 +92,7 @@ const Signup = ({ onSubmit, city }) => {
             id="plus-one-name"
             type="text"
             value={plusOneName}
-            onChange={e => setPlusOneName(e.target.value.trim())}
+            onChange={e => setPlusOneName(e.target.value)}
           />
         </label>
       )}
