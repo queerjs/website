@@ -12,7 +12,7 @@ info:
   maxCapacity: 50
   closeRSVP: false
 site:
-  cfp: true
+  cfp: false
   location: Pitch
   googleMapsLink: https://goo.gl/maps/wDoX6nuhEWgUrbV5A
   calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+Berlin&location=Joachimstra%C3%9Fe+7%2C+10119+Berlin&dates=20220630T160000Z%2F20220630T183000Z
@@ -37,6 +37,7 @@ speakers:
   - name: Sara Vieira
     twitterLink: NikkitaFTW
     githubLink: saravieira
+    mc: true
   - name: Paweł Michalik
     twitterLink: pmichk
     githubLink: pmichk
@@ -49,4 +50,8 @@ speakers:
     twitterLink: lunafromthem00n
     githubLink: lunafromthemoon
     talk: RenJS, a visual novel creator made for writers
+  - name: Henry Lim
+    twitterLink: henrylim96
+    githubLink: limhenry
+    talk: Generating Dynamic Open Graph Image for Malaysia's COVID-19 Website
   
