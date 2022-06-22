@@ -21,6 +21,8 @@ export const SpeakerPhoto = styled.div`
   overflow: hidden;
   transition: 0.2s;
   line-height: 0;
+  width: 240px;
+  margin: auto;
 
   > ${InlineRainbow} {
     border-radius: 100%;
@@ -69,10 +71,10 @@ export const SpeakersGrid = styled.ul`
   margin: 0;
   padding: 0;
 
-  @media (min-width: 400px) {
+  @media (min-width: 620px) {
     grid-template-columns: 1fr 1fr;
   }
-  @media (min-width: 800px) {
+  @media (min-width: 1100px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
 `
@@ -90,6 +92,7 @@ export const UnstyledLink = styled(Link)`
 export const ListItem = styled.li`
   position: relative;
   list-style: none;
+  margin: auto;
   ${props =>
     !props.talk &&
     `
@@ -116,6 +119,11 @@ export const ListItem = styled.li`
     transition: opacity 200ms ease;
     box-shadow: 0 0 0 3px #1e1126;
     text-align: left;
+    right: 0;
+
+    @media (min-width: 800px) {
+      right: auto;
+    }
   }
 
   &:after {
