@@ -52,7 +52,7 @@ export const query = graphql`
       mainOrganizer {
         name
         main
-        phoneNumber
+        # phoneNumber
         twitterHandle
         email
         githubLink
