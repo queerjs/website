@@ -10,7 +10,7 @@ const Signup = ({ onSubmit, city }) => {
   const [plusOneGH, setPlusOneGH] = useState('')
 
   const createUser = () => {
-    if (name && gh) {
+    if (name) {
       if (plusOne && !plusOneName) return
 
       createRecord({
@@ -31,15 +31,15 @@ const Signup = ({ onSubmit, city }) => {
 
   return (
     <Form
-      onSubmit={e => {
+      onSubmit={(e) => {
         e.preventDefault()
         createUser()
         onSubmit()
       }}
     >
       <p>
-        If you're not comfortable showing your photo and link, you may leave the `GitHub Handle` field blank and it will default
-        to `QueerJS`.
+        If you're not comfortable showing your photo and link, you may leave the `GitHub Handle`
+        field blank and it will default to `QueerJS`.
       </p>
       <label htmlFor="name">
         Your Name
@@ -50,7 +50,7 @@ const Signup = ({ onSubmit, city }) => {
           type="text"
           minLength="2"
           value={name}
-          onChange={e => setName(e.target.value)}
+          onChange={(e) => setName(e.target.value)}
         />
       </label>
       <label htmlFor="gh">
@@ -61,8 +61,12 @@ const Signup = ({ onSubmit, city }) => {
           placeholder="QueerJS"
           pattern="[A-Za-z0-9-]{1,30}"
           value={gh}
-          onInvalid={e => e.target.setCustomValidity(`A GitHub handle, e.g. 'QueerJS' for 'https://github.com/queerjs'`)}
-          onChange={e => setGH(e.target.value.trim())}
+          onInvalid={(e) =>
+            e.target.setCustomValidity(
+              `A GitHub handle, e.g. 'QueerJS' for 'https://github.com/queerjs'`
+            )
+          }
+          onChange={(e) => setGH(e.target.value.trim())}
         />
       </label>
       <label
@@ -80,7 +84,7 @@ const Signup = ({ onSubmit, city }) => {
             width: auto !important;
             margin-right: 12px !important;
           `}
-          onChange={e => setPlusOne(e.target.checked)}
+          onChange={(e) => setPlusOne(e.target.checked)}
         />
         <span>I am taking a plus one</span>
       </label>
@@ -92,7 +96,7 @@ const Signup = ({ onSubmit, city }) => {
             id="plus-one-name"
             type="text"
             value={plusOneName}
-            onChange={e => setPlusOneName(e.target.value)}
+            onChange={(e) => setPlusOneName(e.target.value)}
           />
         </label>
       )}
@@ -105,8 +109,12 @@ const Signup = ({ onSubmit, city }) => {
             placeholder="QueerJS"
             pattern="[A-Za-z0-9-]{1,30}"
             value={plusOneGH}
-            onInvalid={e => e.target.setCustomValidity(`A GitHub handle, e.g. 'QueerJS' for 'https://github.com/queerjs'`)}
-            onChange={e => setPlusOneGH(e.target.value.trim())}
+            onInvalid={(e) =>
+              e.target.setCustomValidity(
+                `A GitHub handle, e.g. 'QueerJS' for 'https://github.com/queerjs'`
+              )
+            }
+            onChange={(e) => setPlusOneGH(e.target.value.trim())}
           />
         </label>
       )}
