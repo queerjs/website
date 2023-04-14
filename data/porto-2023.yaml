@@ -11,7 +11,6 @@ info:
   maxCapacity: 50
   closeRSVP: false
 site:
-  cfp: true
   location: New Work
   googleMapsLink: https://goo.gl/maps/MfWrQUmwTsrGERMx7
   calendarLink: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230421T170000Z%2F20230421T190000Z&details=&location=R.%20Sousa%20Aroso%20991%2C%204450-291%20Matosinhos&text=QueeJS%20%40%20New%20Work
