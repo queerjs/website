@@ -1,0 +1,32 @@
+---
+info:
+  city: Vienna
+  link: vienna-2023
+  date: 05/25/23
+  hour: '18:30'
+  icon: icons/vienna/vienna.svg
+  iconHover: icons/vienna/vienna-hover.svg
+  hostIcon: icons/vienna/sentry.svg
+  hostName: Sentry
+  maxCapacity: 60
+  closeRSVP: false
+site:
+  cfp: true
+  location: Sentry
+  googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20230525T163000Z%2F20230525T190000Z
+speakers: []
+mainOrganizer:
+  - name: Paul Klinger
+    main: true
+    twitterHandle: devcalledpaul
+    githubLink: https://github.com/cDevPaul
+  - name: Ramón Huidobro
+    main: true
+    twitterHandle: hola_soy_milk
+    githubLink: https://github.com/hola-soy-milk
+    email: hola@ramonh.dev
+thanks:
+  - link: https://sentry.io
+    name: Sentry
+    reason: Sponsor
