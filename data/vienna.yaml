@@ -15,16 +15,20 @@ site:
   location: Sentry
   googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
   calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20230525T163000Z%2F20230525T190000Z
-speakers: []
+speakers:
+  - name: Paul Klinger
+    main: true
+    twitterHandle: devcalledpaul
+    githubLink: cDevPaul
 mainOrganizer:
   - name: Paul Klinger
     main: true
     twitterHandle: devcalledpaul
-    githubLink: https://github.com/cDevPaul
+    githubLink: cDevPaul
   - name: Ramón Huidobro
     main: true
     twitterHandle: hola_soy_milk
-    githubLink: https://github.com/hola-soy-milk
+    githubLink: hola-soy-milk
     email: hola@ramonh.dev
 thanks:
   - link: https://sentry.io
