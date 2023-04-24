@@ -148,5 +148,19 @@ export default {
       twitterLink: 'LC_butWithCode',
       colors: biStripes
     }
+  ],
+  vienna: [
+    {
+      name: 'Paul Klinger',
+      twitterHandle: 'devcalledpaul',
+      githubLink: 'cDevPaul',
+      colors: biStripes
+    },
+    { name: 'Ramón Huidobro',
+      twitterHandle: 'hola_soy_milk',
+      githubLink: 'hola-soy-milk',
+      email: 'hola@ramonh.dev',
+      colors: phillyStripes
+    }
   ]
 }
