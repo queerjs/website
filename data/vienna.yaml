@@ -25,11 +25,13 @@ mainOrganizer:
     main: true
     twitterHandle: devcalledpaul
     githubLink: cDevPaul
+    colors: biStripes
   - name: Ramón Huidobro
     main: true
     twitterHandle: hola_soy_milk
     githubLink: hola-soy-milk
     email: hola@ramonh.dev
+    colors: phillyStripes
 thanks:
   - link: https://sentry.io
     name: Sentry
