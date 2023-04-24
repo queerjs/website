@@ -36,11 +36,9 @@ const Main = ({ city, attendees }) => {
             />
           ) : (
             <p>
-              This is a meetup where anyone is welcome to attend and support the speakers and the
-              idea but all the speakers will be Queer.
+              QueerJS is a meetup series where everyone is encouraged to attend and support the speakers and the idea.
               <br />
-              This meetup exists to give a voice to everyone, to make a safe space where everyone is
-              welcome.
+              If you're queer and want to speak this meetup is for you! It exists to give you a voice and to make a safe space where everyone is welcome.
             </p>
           )}
           <p>
