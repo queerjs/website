@@ -26,12 +26,10 @@ const IndexPage = ({ data: { allEvent } }) => {
       />
       <Panel>
         <LargeParagraph>
-          QueerJS is a meetup series where everyone is encouraged to attend and support the speakers
-          and the idea, but where all speakers are queer.
+          QueerJS is a meetup series where everyone is encouraged to attend and support the speakers and the idea.
           <br />
           <br />
-          This meetup exists to give a voice to everyone and to make a safe space where everyone is
-          welcome.
+          If you're queer and want to speak this meetup is for you! It exists to give you a voice and to make a safe space where everyone is welcome.
         </LargeParagraph>
         <LargeParagraph>
           Join us! There will be food and stickers{' '}
