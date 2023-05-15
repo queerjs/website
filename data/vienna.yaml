@@ -11,7 +11,7 @@ info:
   maxCapacity: 60
   closeRSVP: false
 site:
-  cfp: true
+  cfp: false
   location: Sentry
   googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
   calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20230525T163000Z%2F20230525T190000Z
@@ -22,6 +22,10 @@ speakers:
   - name: Michi Hoffmann
     githubLink: cleptric
     talk: Eating your own dog food
+  - name: jackie
+    githubLink: jackieklaura
+    talk: Bootstrapping diverse coding journeys with a web-based game dev course
+    link: https://chaos.social/@jackie
 mainOrganizer:
   - name: Paul Klinger
     main: true
