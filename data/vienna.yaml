@@ -16,9 +16,6 @@ site:
   googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
   calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20230525T163000Z%2F20230525T190000Z
 speakers:
-  - name: Paul Klinger
-    twitterHandle: devcalledpaul
-    githubLink: cDevPaul
   - name: Michi Hoffmann
     githubLink: cleptric
     talk: Eating your own dog food
