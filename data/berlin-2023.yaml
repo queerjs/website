@@ -1,0 +1,22 @@
+---
+info:
+  city: Berlin
+  link: berlin-2023
+  date: 07/27/23
+  hour: '18:00'
+  icon: icons/berlin/berlin.svg
+  iconHover: icons/berlin/berlin-hover.svg
+  hostName: TBD
+  food: true
+  maxCapacity: 50
+  closeRSVP: false
+site:
+  cfp: true
+  location: TBD
+  fullDescription: true
+speakers: []
+mainOrganizer:
+  - name: Jessica Rose
+    main: true
+    twitterHandle: jesslynnrose
+    githubLink: jessicarose
