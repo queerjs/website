@@ -29,7 +29,7 @@ const City = ({ past, city, link, date, bySeason, icon, iconHover, hostIcon, hos
       </CityIcon>
       <CityInfo>
         <MeetupDate itemprop={date} content={date} past={past}>
-          {bySeason ? <span>{bySeason}</span> : date}
+          {bySeason ? <span>{bySeason}</span> : new Date(date).toLocaleDateString()}
         </MeetupDate>
         <Name past={past} itemprop="name">
           {city}
