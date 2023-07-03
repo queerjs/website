@@ -18,6 +18,10 @@ site:
   googleMapsLink: https://www.google.com/maps?q=Adalbertstra%C3%9Fe+8,+10999+Berlin,+Germany&hl=en&ie=UTF8&sll=52.500459,13.418976&sspn=0.030096,0.055189&hnear=Adalbertstra%C3%9Fe+8,+10999+Berlin,+Germany&t=m&z=16
   calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+co.up&location=Adalbertstra%C3%9Fe+8%2C+10999+Berlin%2C+Germany&dates=20230727T160000Z%2F20230727T193000Z
 speakers: 
+  - name: Jessica Rose
+    mc: true
+    twitterHandle: jesslynnrose
+    githubLink: jessicarose  
   - name: Carolyn Stransky
     twitterLink: carolstran
     githubLink: carolstran
@@ -35,3 +39,8 @@ mainOrganizer:
     main: true
     twitterHandle: jesslynnrose
     githubLink: jessicarose
+  - name: Ramón Huidobro
+    main: true
+    twitterHandle: hola_soy_milk
+    githubLink: hola-soy-milk
+    email: hola@ramonh.dev
