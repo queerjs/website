@@ -9,7 +9,7 @@ info:
   hostIcon: icons/berlin/coup.svg
   hostName: co.up
   food: true
-  maxCapacity: 50
+  maxCapacity: 41
   closeRSVP: false
 site:
   cfp: true
