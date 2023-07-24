@@ -162,5 +162,21 @@ export default {
       email: 'hola@ramonh.dev',
       colors: phillyStripes
     }
+  ],
+  berlin: [   
+    { 
+      name: 'Jessica Rose',
+      twitterHandle: 'jesslynnrose',
+      githubLink: 'jessicarose',
+      email: '',
+      colors: 
+    },
+    { 
+      name: 'Ramón Huidobro',
+      twitterHandle: 'hola_soy_milk',
+      githubLink: 'hola-soy-milk',
+      email: 'hola@ramonh.dev',
+      colors: phillyStripes
+    }
   ]
 }
