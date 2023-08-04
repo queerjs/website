@@ -154,7 +154,7 @@ export default {
       name: 'Paul Klinger',
       twitterHandle: 'devcalledpaul',
       githubLink: 'cDevPaul',
-      colors: biStripes
+      colors: gayStripes
     },
     { name: 'Ramón Huidobro',
       twitterHandle: 'hola_soy_milk',
