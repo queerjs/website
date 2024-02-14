@@ -13,7 +13,7 @@ info:
   maxCapacity: 50
 site:
   city: New York
-  location: Reaktor Office
+  location: Reaktor 30 W 21st St, New York, NY 10010 (14th Floor)
   googleMapsLink: https://maps.app.goo.gl/twih2oPd5upJ2ezF8
   calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS&details=Hosted+at+Reaktor+NYC+office.+When+you+get+here%2C+tell+front+desk+staff+that+you+are+going+to+Reaktor+office+on+14th+floor%29.&location=30+W+21st+St%2C+New+York%2C+NY+10010&dates=20240425T220000Z%2F20240426T020000Z
   cfp: true
