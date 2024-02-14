@@ -1,7 +1,7 @@
 ---
 info:
   city: New York
-  link: new-york
+  link: new-york-2024
   date: 04/25/2024
   hour: '18:00'
   icon: icons/ny/ny.svg
@@ -23,7 +23,7 @@ sponsors:
     media: https://i.imgur.com/bmJTxU4.jpg
 speakers:
   - name: 3dwardsharp
-    twitterLink: null
+    githubLink: edwardsharp
     talk: "alert('helpful information about Reaktor!');"
     mc: true
   - name: Daniel Ehrenberg
