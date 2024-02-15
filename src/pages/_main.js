@@ -36,9 +36,11 @@ const Main = ({ city, attendees }) => {
             />
           ) : (
             <p>
-              QueerJS is a meetup series where everyone is encouraged to attend and support the speakers and the idea.
+              QueerJS is a meetup series where everyone is encouraged to attend and support the
+              speakers and the idea.
               <br />
-              If you're queer and want to speak this meetup is for you! It exists to give you a voice and to make a safe space where everyone is welcome.
+              If you're queer and want to speak this meetup is for you! It exists to give you a
+              voice and to make a safe space where everyone is welcome.
             </p>
           )}
           <p>
@@ -48,12 +50,12 @@ const Main = ({ city, attendees }) => {
             </span>
           </p>
         </Panel>
-        {speakers.length > 0 || site.cfp ? (
+        {speakers?.length > 0 || site.cfp ? (
           <Panel heading="Speakers">
-            <Speakers cfp={site.cfp} speakers={speakers.filter((s) => !s.mc)} />
+            <Speakers cfp={site.cfp} speakers={speakers?.filter((s) => !s.mc)} />
           </Panel>
         ) : null}
-        {speakers.filter((s) => s.mc).length ? (
+        {speakers?.filter((s) => s.mc).length ? (
           <Panel heading="MC">
             <Speakers noSpeak cfp={site.cfp} speakers={speakers.filter((s) => s.mc)} />
           </Panel>

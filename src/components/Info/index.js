@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { format, parse, isPast } from 'date-fns'
+import { format, isPast } from 'date-fns'
 
 import Rsvp from './Form'
 import Flag from '../icons/flag'
@@ -39,12 +39,12 @@ const InfoComponent = ({ site, city, info, attendeesNumber }) => {
       </Info>
       {!open ? (
         <RsvpButton
-          onClick={() => (!site.rsvpLink ? setOpen(true) : () => { })}
+          onClick={() => (!site.rsvpLink ? setOpen(true) : () => {})}
           style={
             submitted || closeRSVP
               ? {
-                pointerEvents: 'none'
-              }
+                  pointerEvents: 'none'
+                }
               : {}
           }
         >
@@ -84,6 +84,5 @@ const InfoComponent = ({ site, city, info, attendeesNumber }) => {
     </>
   )
 }
-
 
 export default InfoComponent

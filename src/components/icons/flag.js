@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => (
+const Flag = () => (
   <svg
     width="52px"
     height="56px"
@@ -84,3 +84,5 @@ export default () => (
     </g>
   </svg>
 )
+
+export default Flag
