@@ -25,9 +25,7 @@ organizers:
   - name: 3dwardsharp
     githubLink: edwardsharp
     talk: "alert('helpful information about Reaktor!');"
-    mc: true
   - name: Daniel Ehrenberg
     githubLink: littledan
     twitterLink: littledan
     talk:
-    mc: true
