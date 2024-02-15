@@ -15,7 +15,7 @@ import {
 const Speakers = ({ noSpeak, speakers, cfp }) => {
   return (
     <SpeakersGrid>
-      {speakers.map((human) => {
+      {speakers?.map((human) => {
         const Wrapper = human.link || human.twitterLink ? UnstyledLink : 'div'
         return (
           <ListItem
