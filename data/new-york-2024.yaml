@@ -24,8 +24,6 @@ sponsors:
 organizers:
   - name: 3dwardsharp
     githubLink: edwardsharp
-    talk: "alert('helpful information about Reaktor!');"
   - name: Daniel Ehrenberg
     githubLink: littledan
     twitterLink: littledan
-    talk:
