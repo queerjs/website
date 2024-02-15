@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => (
+const Calendar = () => (
   <svg
     width="50px"
     height="53px"
@@ -62,3 +62,5 @@ export default () => (
     </g>
   </svg>
 )
+
+export default Calendar

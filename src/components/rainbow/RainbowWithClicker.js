@@ -3,7 +3,7 @@ import Rainbow from './Rainbow'
 
 import { useRainbow } from '../../helpers/useRainbow'
 
-export default ({ className, flag, ...props }) => {
+const RainbowWithClicker = ({ className, flag, ...props }) => {
   const [stripes, { cycle }] = useRainbow()
   return (
     <Rainbow
@@ -15,3 +15,5 @@ export default ({ className, flag, ...props }) => {
     />
   )
 }
+
+export default RainbowWithClicker

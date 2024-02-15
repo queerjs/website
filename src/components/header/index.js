@@ -5,7 +5,7 @@ import text from './text.svg'
 import RainbowWithClicker from '../rainbow/RainbowWithClicker'
 import { Nav, LogoWrap, Logo, Codelings, Subtitle, NavRow, NavLink, NavHref } from './elements'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <Nav>
     <Codelings />
     <h1
@@ -42,9 +42,15 @@ const Header = ({ siteTitle }) => (
             Donate
           </NavHref>
         </li>
-        <li><NavLink to="/organizers">Organizers</NavLink> </li>
-        <li><NavLink to="/faq">FAQ</NavLink> </li>
-        <li><NavHref href="/discord">Discord</NavHref> </li>
+        <li>
+          <NavLink to="/organizers">Organizers</NavLink>{' '}
+        </li>
+        <li>
+          <NavLink to="/faq">FAQ</NavLink>{' '}
+        </li>
+        <li>
+          <NavHref href="/discord">Discord</NavHref>{' '}
+        </li>
       </ul>
     </NavRow>
   </Nav>

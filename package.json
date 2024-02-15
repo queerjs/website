@@ -6,11 +6,14 @@
     "build": "gatsby build",
     "clean-cache": "gatsby clean",
     "dev": "npm run clean-cache && gatsby develop",
+    "lint": "eslint .",
     "format": "prettier --write \"**/*.js\" \"!.cache/**\" \"!node_modules/**\" \"!public/**\""
   },
   "devDependencies": {
     "date-fns": "2.29.3",
     "dotenv": "16.0.3",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
     "gatsby": "5.8.0",
     "gatsby-plugin-react-helmet": "6.8.0",
     "react": "18.2.0",
