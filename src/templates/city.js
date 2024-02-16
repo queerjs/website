@@ -13,7 +13,7 @@ const City = ({ data = {} }) => {
 export default City
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     allAirtable(filter: { data: { city: { eq: $slug } } }) {
       edges {
         node {

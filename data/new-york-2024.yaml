@@ -1,0 +1,32 @@
+---
+info:
+  city: New York
+  link: new-york-2024
+  date: 04/25/2024
+  hour: '18:00'
+  icon: icons/ny/ny.svg
+  iconHover: icons/ny/ny-hover.svg
+  hostIcon: icons/ny/reaktor.svg
+  hostName: Reaktor
+  rsvpsClosed: false
+  food: true
+  maxCapacity: 50
+site:
+  city: New York
+  location: Reaktor 30 W 21st St, New York, NY 10010 (14th Floor)
+  googleMapsLink: https://maps.app.goo.gl/twih2oPd5upJ2ezF8
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS&details=Hosted+at+Reaktor+NYC+office.+When+you+get+here%2C+tell+front+desk+staff+that+you+are+going+to+Reaktor+office+on+14th+floor%29.&location=30+W+21st+St%2C+New+York%2C+NY+10010&dates=20240425T220000Z%2F20240426T020000Z
+  cfp: true
+sponsors:
+  - name: Reaktor
+    link: https://reaktor.com
+    media: https://i.imgur.com/bmJTxU4.jpg
+organizers:
+  - name: 3dwardsharp
+    mc: true
+    githubLink: edwardsharp
+    talk: 'Reaktor && functional programming (but mostly here to help)'
+  - name: Daniel Ehrenberg
+    mc: true
+    githubLink: littledan
+    twitterLink: littledan

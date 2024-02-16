@@ -12,12 +12,14 @@ import Heading from '../components/Heading'
 import Announcement from '../components/Announcement'
 
 const Main = ({ city, attendees }) => {
-  const { site, thanks, speakers, sponsors, info, mainOrganizer, announcement } = city
+  const { site, thanks, speakers, sponsors, info, mainOrganizer, announcement, organizers } = city
   const hasHeading = !site.fullDescription
     ? {
         heading: 'What?'
       }
     : {}
+
+  const cityOrganizers = mainOrganizer || organizers
   return (
     <Layout>
       <SEO
@@ -70,9 +72,10 @@ const Main = ({ city, attendees }) => {
             <Sponsors sponsors={sponsors} />
           </Panel>
         )}
-        {mainOrganizer && mainOrganizer.length > 0 ? (
-          <Panel heading={mainOrganizer.length > 1 ? 'Organizers' : 'Organizer'}>
-            <Organizers organizers={mainOrganizer} />
+
+        {cityOrganizers?.length ? (
+          <Panel heading={cityOrganizers?.length > 1 ? 'Organizers' : 'Organizer'}>
+            <Organizers organizers={cityOrganizers} />
           </Panel>
         ) : null}
       </section>
