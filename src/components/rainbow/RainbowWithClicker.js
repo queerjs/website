@@ -9,7 +9,7 @@ const RainbowWithClicker = ({ className, flag, ...props }) => {
     <Rainbow
       {...props}
       stripes={flag || stripes}
-      style={{ cursor: 'pointer' }}
+      style={{ cursor: 'pointer', ...props.styles }}
       className={className}
       onClick={() => !flag && cycle()}
     />
