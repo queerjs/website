@@ -3,7 +3,7 @@ info:
   city: Paris
   link: paris-2024
   date: 04/23/2024
-  hour: '18:30'
+  hour: '19:00'
   icon: icons/paris/paris.svg
   iconHover: icons/paris/paris-hover.svg
   hostIcon: icons/paris/leboncoin.png
@@ -15,7 +15,7 @@ site:
   city: Paris
   location: Leboncoin
   googleMapsLink: https://maps.app.goo.gl/QQGXdYYK1epVQ5ir7
-  calendarLink: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240423T163000Z%2F20240423T180000Z&details=&location=24%20Rue%20des%20Jeuneurs%2C%2075002%20Paris%2C%20France&text=QueerJS%20Paris
+  calendarLink: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240423T170000Z%2F20240423T193000Z&details=&location=24%20Rue%20des%20Jeuneurs%2C%2075002%20Paris%2C%20France&text=QueerJS%20Paris
 mainOrganizer:
   - name: Paola Ducolin
     main: true
