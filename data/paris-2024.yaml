@@ -14,7 +14,7 @@ site:
   cfp: true
   city: Paris
   location: Leboncoin
-  googleMapsLink: https://maps.app.goo.gl/QQGXdYYK1epVQ5ir7
+  googleMapsLink: https://maps.app.goo.gl/qbRY93S9VsjQo19v9
   calendarLink: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240423T170000Z%2F20240423T193000Z&details=&location=24%20Rue%20des%20Jeuneurs%2C%2075002%20Paris%2C%20France&text=QueerJS%20Paris
 mainOrganizer:
   - name: Paola Ducolin
