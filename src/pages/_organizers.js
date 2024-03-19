@@ -20,7 +20,7 @@ export default {
     {
       name: 'Alejandra Villa',
       twitterLink: 'AlxSavage',
-      githubLink: 'AlxSavage',
+      // githubLink: 'AlxSavage',
       colors: gayStripes
     },
     {
@@ -51,8 +51,8 @@ export default {
     },
     {
       name: 'Lian Li',
-      twitterLink: 'Chimney42',
-      githubLink: 'Chimney42',
+      twitterLink: 'lianmakesthings',
+      githubLink: 'lianmakesthings',
       colors: phillyStripes
     }
   ],
@@ -60,6 +60,7 @@ export default {
     {
       name: 'Jeremias Menichelli',
       twitterLink: 'jeremenichelli',
+      githubLink: 'jeremenichelli',
       colors: []
     },
     {
@@ -101,6 +102,17 @@ export default {
       twitterLink: 'bitandbang',
       githubLink: 'bnb',
       colors: []
+    },
+    {
+      name: 'Edward Sharp',
+      githubLink: 'edwardsharp',
+      colors: []
+    },
+    {
+      name: 'Daniel Ehrenberg',
+      twitterLink: 'littledan',
+      githubLink: 'littledan',
+      colors: gayStripes
     }
   ],
   Stockholm: [
@@ -156,7 +168,8 @@ export default {
       githubLink: 'cDevPaul',
       colors: gayStripes
     },
-    { name: 'Ramón Huidobro',
+    {
+      name: 'Ramón Huidobro',
       twitterHandle: 'hola_soy_milk',
       githubLink: 'hola-soy-milk',
       email: 'hola@ramonh.dev',

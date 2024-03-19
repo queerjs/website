@@ -42,7 +42,12 @@ const Speakers = ({ noSpeak, speakers, cfp }) => {
                     />
                   </>
                 ) : (
-                  <RainbowWithClicker />
+                  <RainbowWithClicker
+                    styles={{
+                      width: 240,
+                      height: 240
+                    }}
+                  />
                 )}
               </SpeakerPhoto>
               <Unstyled>{human.name}</Unstyled>
