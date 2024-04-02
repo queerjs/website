@@ -14,6 +14,10 @@ const FAQPage = () => {
       <main>
         <h1 hidden>Welcome to QueerJS</h1>
         <Panel heading="FAQ"></Panel>
+        <Panel heading="What is QueerJS?" id="what">
+          QueerJS is a meetup series where everyone is encouraged to attend and support the speakers and the idea.
+          If you're queer and want to speak this meetup is for you! It exists to give you a voice and to make a safe space where everyone is welcome.
+        </Panel>
         <Panel heading="How do I speak at QueerJS?" id="how-to-speak">
           We'd love for you to speak at a meetup! Please see {' '}  
           <a
