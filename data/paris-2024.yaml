@@ -40,6 +40,12 @@ speakers:
   - name: Sara Vieira
     twitterLink: NikkitaFTW
     githubLink: SaraVieira
+    talk: all talks everywhere at once
+  - name: Nino Filiu
+    twitterLink: ninofiliu
+    githubLink: ninofiliu
+    talk: Weird Web APIs I love to use when making art in the browser
+
   - mc: true
     name: Paola Ducolin
     twitterLink: PolaDuco
