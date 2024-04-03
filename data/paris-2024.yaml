@@ -11,7 +11,7 @@ info:
   rsvpsClosed: false
   food: true
 site:
-  cfp: true
+  cfp: false
   city: Paris
   location: Leboncoin
   googleMapsLink: https://maps.app.goo.gl/EugVicHAcsyVfdVn7
@@ -45,6 +45,10 @@ speakers:
     twitterLink: ninofiliu
     githubLink: ninofiliu
     talk: Weird Web APIs I love to use when making art in the browser
+  - name: Flavio Gurgel
+    twitterLink: fhagur
+    githubLink: flaviogurgel
+    talk: Management of on-call duties during a DDoS attack
 
   - mc: true
     name: Paola Ducolin
