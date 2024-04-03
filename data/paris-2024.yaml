@@ -11,7 +11,7 @@ info:
   rsvpsClosed: false
   food: true
 site:
-  cfp: true
+  cfp: false
   city: Paris
   location: Leboncoin
   googleMapsLink: https://maps.app.goo.gl/EugVicHAcsyVfdVn7
