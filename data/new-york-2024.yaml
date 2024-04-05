@@ -21,12 +21,15 @@ sponsors:
   - name: Reaktor
     link: https://reaktor.com
     media: https://i.imgur.com/bmJTxU4.jpg
-organizers:
+speakers:
+  - name: Michael Molisani
+    githubLink: molisani
+    talk: Principles of CLI Apps (and their Frameworks)
+  - name: Daniel Ehrenberg
+    githubLink: littledan
+    twitterLink: littledan
+    talk: Standard Signals in JavaScript?
   - name: 3dwardsharp
     mc: true
     githubLink: edwardsharp
     talk: 'Reaktor && functional programming (but mostly here to help)'
-  - name: Daniel Ehrenberg
-    mc: true
-    githubLink: littledan
-    twitterLink: littledan
