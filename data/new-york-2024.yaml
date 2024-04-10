@@ -22,14 +22,17 @@ sponsors:
     link: https://reaktor.com
     media: https://i.imgur.com/bmJTxU4.jpg
 speakers:
-  - name: Michael Molisani
+  - name: Michael Molisani (he/him)
     githubLink: molisani
     talk: Principles of CLI Apps (and their Frameworks)
-  - name: Daniel Ehrenberg
+  - name: Daniel Ehrenberg (he/him/they)
     githubLink: littledan
     twitterLink: littledan
     talk: Standard Signals in JavaScript?
-  - name: 3dwardsharp
+  - name: Alexandria Rohn (she/her)
+    githubLink: alexathylane
+    talk: The Science of Effective Learning
+  - name: 3dwardsharp (they/them)
     mc: true
     githubLink: edwardsharp
     talk: 'Reaktor && functional programming (but mostly here to help)'
