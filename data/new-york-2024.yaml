@@ -22,17 +22,30 @@ sponsors:
     link: https://reaktor.com
     media: https://i.imgur.com/bmJTxU4.jpg
 speakers:
-  - name: Michael Molisani (he/him)
-    githubLink: molisani
-    talk: Principles of CLI Apps (and their Frameworks)
-  - name: Daniel Ehrenberg (he/him/they)
-    githubLink: littledan
-    twitterLink: littledan
-    talk: Standard Signals in JavaScript?
   - name: Alexandria Rohn (she/her)
     githubLink: alexathylane
     talk: The Science of Effective Learning
+    link: https://github.com/queerjs/queerjs-talk-proposals/issues/65
+  - name: Michael Molisani (he/him)
+    githubLink: molisani
+    talk: Principles of CLI Apps (and their Frameworks)
+    link: https://github.com/queerjs/queerjs-talk-proposals/issues/61
+  - name: Kristen Maevyn (she/her)
+    githubLink: pzuraq
+    talk: Standard Signals in JavaScript with Shay
+    link: https://github.com/queerjs/queerjs-talk-proposals/issues/59
+  - name: Shay Lewis (they/them)
+    githubLink: shaylew
+    talk: Standard Signals in JavaScript with Kristen
+    link: https://github.com/queerjs/queerjs-talk-proposals/issues/59
   - name: 3dwardsharp (they/them)
     mc: true
     githubLink: edwardsharp
     talk: 'Reaktor && functional programming (but mostly here to help)'
+organizers:
+  - name: Daniel Ehrenberg (he/him/they)
+    githubLink: littledan
+    twitterLink: littledan
+    talk: Standard Signals in JavaScript?
+  - name: 3dwardsharp (they/them)
+    githubLink: edwardsharp
