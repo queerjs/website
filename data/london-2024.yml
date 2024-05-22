@@ -6,7 +6,7 @@ info:
   hour: '18:00'
   icon: icons/london/london.svg
   iconHover: icons/london/london-hover.svg
-  hostIcon: icons/paris/leboncoin.png
+  hostIcon: icons/london/tldraw.png
   hostName: tldraw
   maxCapacity: 50
   rsvpsClosed: false
@@ -28,6 +28,10 @@ This is a meetup where anyone is welcome to attend and support the speakers and 
 This meetup exists to give a voice to everyone, to make a safe space where everyone is welcome.
   "
 mainOrganizer:
+  - name: Alex
+    twitterHandle: somehats
+    email: alex@dytry.ch
+    githubLink: SomeHats
   - name: Sara Vieira
     phoneNumber: '+44 07928251169'
     twitterHandle: NikkitaFTW
@@ -37,13 +41,14 @@ thanks: []
 sponsors:
   - name: tldraw
     link: http://tldraw.com
-    media: https://media.licdn.com/dms/image/D4E0BAQHUaVVbxEGcdw/company-logo_200_200/0/1702634408856/tldraw_logo?e=1723680000&v=beta&t=YyiPrtPckNk8hTxahxXYwsmIYFTX0LifnWzCvHIvgg0
+    media: https://github.com/tldraw/tldraw/blob/main/assets/card-repo.png?raw=true
 speakers:
   - name: Lu Wilson
     githubLink: TodePond
-    # twitterLink: rachelnabors
+  - name: Taha Hassan
+    githubLink: Taha-Hassan-Git
 
   - mc: true
-    name: Sara Vieira
-    twitterLink: NikkitaFTW
-    githubLink: SaraVieira
+    name: Alex
+    twitterHandle: somehats
+    githubLink: SomeHats
