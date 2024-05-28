@@ -2,7 +2,7 @@
 info:
   city: London
   link: london-2024
-  date: 06/13/2024
+  date: 06/27/2024
   hour: '18:00'
   icon: icons/london/london.svg
   iconHover: icons/london/london-hover.svg
@@ -16,7 +16,7 @@ site:
   city: London
   location: tldraw
   googleMapsLink: https://maps.app.goo.gl/qFiu6Vax9VsFj4a9A
-  calendarLink: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240613T170000Z%2F20240613T190000Z&details=&location=Floor%203%2C%20The%20Arts%20Building%2C%20Morris%20Pl%2C%20Finsbury%20Park%2C%20London%20N4%203JG&text=QueerJS%20London
+  calendarLink: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240627T170000Z%2F20240627T190000Z&details=&location=Floor%203%2C%20The%20Arts%20Building%2C%20Morris%20Pl%2C%20Finsbury%20Park%2C%20London%20N4%203JG&text=QueerJS%20London
   fullDescription: true
   customDescription: "
   <h2>Special Event</h2>
