@@ -1,0 +1,54 @@
+---
+info:
+  city: London
+  link: london-2024
+  date: 06/27/2024
+  hour: '18:00'
+  icon: icons/london/london.svg
+  iconHover: icons/london/london-hover.svg
+  hostIcon: icons/london/tldraw.png
+  hostName: tldraw
+  maxCapacity: 50
+  rsvpsClosed: false
+  food: true
+site:
+  cfp: true
+  city: London
+  location: tldraw
+  googleMapsLink: https://maps.app.goo.gl/qFiu6Vax9VsFj4a9A
+  calendarLink: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240627T170000Z%2F20240627T190000Z&details=&location=Floor%203%2C%20The%20Arts%20Building%2C%20Morris%20Pl%2C%20Finsbury%20Park%2C%20London%20N4%203JG&text=QueerJS%20London
+  fullDescription: true
+  customDescription: "
+  <h2>Special Event</h2>
+This will be a special show and tell event. All talks will be a max of 10 minutes and we want you to show something you did and looks/sounds awesome!
+<br/><br/>
+  <h2>What?</h2>
+This is a meetup where anyone is welcome to attend and support the speakers and the idea but all the speakers will be Queer.
+<br/><br/>
+This meetup exists to give a voice to everyone, to make a safe space where everyone is welcome.
+  "
+mainOrganizer:
+  - name: Alex
+    twitterHandle: somehats
+    email: alex@dytry.ch
+    githubLink: SomeHats
+  - name: Sara Vieira
+    phoneNumber: '+44 07928251169'
+    twitterHandle: NikkitaFTW
+    email: sara@queerjs.com
+    githubLink: SaraVieira
+thanks: []
+sponsors:
+  - name: tldraw
+    link: http://tldraw.com
+    media: https://github.com/tldraw/tldraw/blob/main/assets/card-repo.png?raw=true
+speakers:
+  - name: Lu Wilson
+    githubLink: TodePond
+  - name: Taha Hassan
+    githubLink: Taha-Hassan-Git
+
+  - mc: true
+    name: Alex
+    twitterHandle: somehats
+    githubLink: SomeHats
