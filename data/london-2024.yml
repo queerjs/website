@@ -47,7 +47,13 @@ speakers:
     githubLink: TodePond
   - name: Taha Hassan
     githubLink: Taha-Hassan-Git
-
+  - name: Laura Gonzalez
+    githubLink: walaura
+    twitterHandle: freezydorito
+    talk: Solving puzzles using javascript
+  - name: Oliver Medhurst
+    githubLink: CanadaHonk
+    twitterHandle: CanadaHonk
   - mc: true
     name: Alex
     twitterHandle: somehats
