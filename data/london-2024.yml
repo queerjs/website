@@ -54,6 +54,9 @@ speakers:
   - name: Oliver Medhurst
     githubLink: CanadaHonk
     twitterHandle: CanadaHonk
+  - name: Valerie T. Enfys
+    githubLink: valin4tor
+    talk: "Alice in Wonderland: What Happens When We Dream?"
   - mc: true
     name: Alex
     twitterHandle: somehats
