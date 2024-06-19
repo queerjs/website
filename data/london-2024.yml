@@ -12,7 +12,7 @@ info:
   rsvpsClosed: false
   food: true
 site:
-  cfp: true
+  cfp: false
   city: London
   location: tldraw
   googleMapsLink: https://maps.app.goo.gl/qFiu6Vax9VsFj4a9A
