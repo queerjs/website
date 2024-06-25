@@ -2,7 +2,7 @@
 info:
   city: Vienna
   link: vienna-summer-2024
-  date: 07/24/24
+  date: 07/18/24
   hour: '18:30'
   icon: icons/vienna/vienna.svg
   iconHover: icons/vienna/vienna-hover.svg
@@ -14,7 +14,7 @@ site:
   cfp: true
   location: Sentry
   googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
-  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20240725T163000Z%2F20240725T190000Z
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20240718T163000Z%2F20240718T190000Z
 speakers:
   - name: Christian Cito
     githubLink: chrcit
