@@ -169,10 +169,10 @@ export default {
       colors: gayStripes
     },
     {
-      name: 'Ramón Huidobro',
+      name: 'Carmen Huidobro',
       twitterHandle: 'hola_soy_milk',
       githubLink: 'hola-soy-milk',
-      email: 'hola@ramonh.dev',
+      email: 'hola@carmenh.dev',
       colors: phillyStripes
     }
   ]
