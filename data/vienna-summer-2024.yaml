@@ -1,8 +1,8 @@
 ---
 info:
   city: Vienna
-  link: vienna-2023
-  date: 05/25/23
+  link: vienna-summer-2024
+  date: 07/18/24
   hour: '18:30'
   icon: icons/vienna/vienna.svg
   iconHover: icons/vienna/vienna-hover.svg
@@ -11,18 +11,14 @@ info:
   maxCapacity: 60
   closeRSVP: false
 site:
-  cfp: false
+  cfp: true
   location: Sentry
   googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
-  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20230525T163000Z%2F20230525T190000Z
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20240718T163000Z%2F20240718T190000Z
 speakers:
-  - name: Michi Hoffmann
-    githubLink: cleptric
-    talk: Eating your own dog food
-  - name: jackie
-    githubLink: jackieklaura
-    talk: Bootstrapping diverse coding journeys with a web-based game dev course
-    link: https://chaos.social/@jackie
+  - name: Christian Cito
+    githubLink: chrcit
+    link: https://www.chrcit.com/articles/2023-year-in-review
 mainOrganizer:
   - name: Paul Klinger
     main: true
