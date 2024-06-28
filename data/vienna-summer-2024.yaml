@@ -19,6 +19,10 @@ speakers:
   - name: Christian Cito
     githubLink: chrcit
     link: https://www.chrcit.com/articles/2023-year-in-review
+  - name: Eva Lettner
+    githubLink: evatrostlos
+    link: https://www.linkedin.com/in/eva-lettner-23997094/
+    talk: The art of connection - enhancing collaboration with communication science!
 mainOrganizer:
   - name: Paul Klinger
     main: true
