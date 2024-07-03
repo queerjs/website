@@ -24,10 +24,6 @@ speakers:
     talk: Bootstrapping diverse coding journeys with a web-based game dev course
     link: https://chaos.social/@jackie
 mainOrganizer:
-  - name: Paul Klinger
-    main: true
-    twitterHandle: devcalledpaul
-    githubLink: cDevPaul
   - name: Carmen Huidobro
     main: true
     twitterHandle: hola_soy_milk

@@ -163,12 +163,6 @@ export default {
   ],
   vienna: [
     {
-      name: 'Paul Klinger',
-      twitterHandle: 'devcalledpaul',
-      githubLink: 'cDevPaul',
-      colors: gayStripes
-    },
-    {
       name: 'Carmen Huidobro',
       twitterHandle: 'hola_soy_milk',
       githubLink: 'hola-soy-milk',
