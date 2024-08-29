@@ -6,7 +6,7 @@ info:
   hour: '19:00'
   icon: icons/paris/paris.svg
   iconHover: icons/paris/paris-hover.svg
-  hostIcon: icons/paris/datadog.png
+  hostIcon: icons/paris/logo_datadog.svg
   hostName: Datadog
   rsvpsClosed: false
   food: true
