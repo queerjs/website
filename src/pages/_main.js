@@ -67,6 +67,13 @@ const Main = ({ city, attendees }) => {
             <Attendees attendees={attendees} />
           </Panel>
         ) : null}
+        {site.additionalNote?.length ? (
+          <Panel heading="Notes">
+          <p>
+            {site.additionalNote}
+          </p>
+          </Panel>
+        ) : null}
         {sponsors && (
           <Panel heading="Sponsors">
             <Sponsors sponsors={sponsors} />

@@ -16,6 +16,7 @@ site:
   location: Datadog
   googleMapsLink: https://maps.app.goo.gl/4soe5HrrWAA6fdEv7
   calendarLink: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDBrMnYyc2NrbHVmdXIyMTBrcjllaXV2cm4gcGFvbGEuZHVjb2xpbkBkYXRhZG9naHEuY29t&tmsrc=paola.ducolin%40datadoghq.com
+  additionalNote: Please note that an ID card is required to enter the building
 mainOrganizer:
   - name: Paola Ducolin
     main: true
