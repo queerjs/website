@@ -1,0 +1,35 @@
+---
+info:
+  city: Paris
+  link: paris-2024-october
+  date: 10/15/2024
+  hour: '19:00'
+  icon: icons/paris/paris.svg
+  iconHover: icons/paris/paris-hover.svg
+  hostIcon: icons/paris/datadog.png
+  hostName: Datadog
+  rsvpsClosed: false
+  food: true
+site:
+  cfp: true
+  city: Paris
+  location: Datadog
+  googleMapsLink: https://maps.app.goo.gl/4soe5HrrWAA6fdEv7
+  calendarLink: https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDBrMnYyc2NrbHVmdXIyMTBrcjllaXV2cm4gcGFvbGEuZHVjb2xpbkBkYXRhZG9naHEuY29t&tmsrc=paola.ducolin%40datadoghq.com
+mainOrganizer:
+  - name: Paola Ducolin
+    main: true
+    phoneNumber: '+33 783059652'
+    twitterHandle: PolaDuco
+    email: paola.ducolin@queerjs.com
+    githubLink: pducolin
+thanks: []
+sponsors:
+  - name: Datadog
+    link: https://www.datadoghq.com/
+    media: https://imgur.com/D6qNbfR.png
+speakers:
+  - mc: true
+    name: Paola Ducolin
+    twitterLink: PolaDuco
+    githubLink: pducolin
