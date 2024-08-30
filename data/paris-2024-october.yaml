@@ -30,6 +30,9 @@ sponsors:
     link: https://www.datadoghq.com/
     media: https://imgur.com/D6qNbfR.png
 speakers:
+  - name: Nicolo Ribaudo
+    twitterLink: NicoloRibaudo
+    githubLink: nicolo-ribaudo
   - mc: true
     name: Paola Ducolin
     twitterLink: PolaDuco
