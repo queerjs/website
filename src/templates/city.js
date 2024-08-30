@@ -44,6 +44,7 @@ export const query = graphql`
         cfp
         customDescription
         fullDescription
+        additionalNote
       }
       announcement {
         heading
