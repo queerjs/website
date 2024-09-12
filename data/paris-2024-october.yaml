@@ -33,6 +33,7 @@ speakers:
   - name: Nicolo Ribaudo
     twitterLink: NicoloRibaudo
     githubLink: nicolo-ribaudo
+    talk: Teaching your editor a new programming language
   - mc: true
     name: Paola Ducolin
     twitterLink: PolaDuco
