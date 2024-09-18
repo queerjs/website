@@ -34,6 +34,9 @@ speakers:
     twitterLink: NicoloRibaudo
     githubLink: nicolo-ribaudo
     talk: Teaching your editor a new programming language
+  - name: Juliet Wang
+    githubLink: immjs
+    talk: Can a web-like environment be brought to the Minitel?
   - mc: true
     name: Paola Ducolin
     twitterLink: PolaDuco
