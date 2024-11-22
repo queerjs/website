@@ -1,0 +1,36 @@
+---
+info:
+  city: Vienna
+  link: vienna-jan-2025
+  date: 01/16/25
+  hour: '18:30'
+  icon: icons/vienna/vienna.svg
+  iconHover: icons/vienna/vienna-hover.svg
+  hostIcon: icons/vienna/sentry.svg
+  hostName: Sentry
+  maxCapacity: 60
+  closeRSVP: false
+site:
+  cfp: true
+  location: Sentry
+  googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+%40+Sentry&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20250116T173000Z%2F20250116T210000Z
+speakers:
+  - name:  Daria Lyubaeva
+    githubLink: evelynforkhands
+    talk: Server-side tracking in Next.js (using Snowplow)
+    link: https://www.linkedin.com/in/daria-lyubaeva/
+mainOrganizer:
+  - name: Carmen Huidobro
+    main: true
+    githubLink: hola-soy-milk
+    email: hola@carmenh.dev
+    link: https://carmenh.dev/card
+  - name: jackie
+    main: true
+    githubLink: jackieklaura
+    link: https://chaos.social/@jackie
+thanks:
+  - link: https://sentry.io
+    name: Sentry
+    reason: Sponsoring, hosting

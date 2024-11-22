@@ -164,9 +164,15 @@ export default {
   vienna: [
     {
       name: 'Carmen Huidobro',
-      twitterHandle: 'hola_soy_milk',
+      link: 'https://carmenh.dev/card',
       githubLink: 'hola-soy-milk',
       email: 'hola@carmenh.dev',
+      colors: phillyStripes
+    },
+    {
+      name: 'jackie',
+      githubLink: 'jackieklaura',
+      link: 'https://chaos.social/@jackie',
       colors: phillyStripes
     }
   ]
