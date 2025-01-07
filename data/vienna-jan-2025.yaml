@@ -20,6 +20,10 @@ speakers:
     githubLink: evelynforkhands
     talk: Server-side tracking in Next.js (using Snowplow)
     link: https://www.linkedin.com/in/daria-lyubaeva/
+  - name: Philippa Markovics⁩
+    talk: "Gentle and Joyful: An Introduction to ClojureScript for JavaScript Programmers"
+    githubLink: philippamarkovics
+    link: https://trimmings.wtf
 mainOrganizer:
   - name: Carmen Huidobro
     main: true
