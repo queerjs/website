@@ -1,0 +1,32 @@
+---
+info:
+  city: Vienna
+  link: vienna-jun-2025
+  date: 24/06/25
+  hour: '18:30'
+  icon: icons/vienna/vienna.svg
+  iconHover: icons/vienna/vienna-hover.svg
+  hostIcon: icons/vienna/sentry.svg
+  hostName: Sentry
+  maxCapacity: 60
+  closeRSVP: false
+site:
+  cfp: true
+  location: Sentry
+  googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
+  calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+Pride+2024&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20250624T163000Z%2F20250624T193000Z
+speakers:
+mainOrganizer:
+  - name: Carmen Huidobro
+    main: true
+    githubLink: hola-soy-milk
+    email: hola@carmenh.dev
+    link: https://carmenh.dev/card
+  - name: jackie
+    main: true
+    githubLink: jackieklaura
+    link: https://chaos.social/@jackie
+thanks:
+  - link: https://sentry.io
+    name: Sentry
+    reason: Sponsoring, hosting
