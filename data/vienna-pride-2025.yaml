@@ -16,6 +16,9 @@ site:
   googleMapsLink: https://goo.gl/maps/vG5F7KtfjcGyU1Er5
   calendarLink: https://www.google.com/calendar/render?action=TEMPLATE&text=QueerJS+Pride+2024&location=Rothschildplatz+3%2F2%2Fab%2C+1020+Wien&dates=20250624T163000Z%2F20250624T193000Z
 speakers:
+  - name: Tamara Stoiber
+    talk: The Type in TypeScript - How Breaking a Binary May Lead to New Realities
+    link: https://www.linkedin.com/in/tamara-stoiber-3a14aa182/
 mainOrganizer:
   - name: Carmen Huidobro
     main: true
