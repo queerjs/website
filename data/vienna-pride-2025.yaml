@@ -19,6 +19,9 @@ speakers:
   - name: Tamara Stoiber
     talk: The Type in TypeScript - How Breaking a Binary May Lead to New Realities
     link: https://www.linkedin.com/in/tamara-stoiber-3a14aa182/
+  - name: Carmen Huidobro
+    githubLink: hola-soy-milk
+    talk: On Privilege
 mainOrganizer:
   - name: Carmen Huidobro
     main: true
