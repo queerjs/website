@@ -5,6 +5,7 @@ COPY package.json pnpm-lock.yaml ./
 RUN pnpm i --frozen-lockfile
 COPY . .
 ENV CI=true
+ENV GATSBY_TELEMETRY_DISABLED=1
 ENV GATSBY_CPU_COUNT=1
 RUN pnpm run build
 
