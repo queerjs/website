@@ -7,8 +7,7 @@ COPY . .
 ENV CI=true
 ENV GATSBY_TELEMETRY_DISABLED=1
 ENV GATSBY_CPU_COUNT=1
-ENV PARCEL_WORKERS=1
-RUN pnpm run build
+RUN --mount=type=tmpfs,target=/app/.cache pnpm run build
 
 FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
