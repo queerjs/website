@@ -3,7 +3,7 @@
   "name": "queerjs-web",
   "version": "1.0.0",
   "scripts": {
-    "build": "gatsby build",
+    "build": "CI=true gatsby build",
     "clean-cache": "gatsby clean",
     "dev": "npm run clean-cache && gatsby develop",
     "lint": "eslint .",
