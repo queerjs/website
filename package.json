@@ -2,8 +2,9 @@
   "private": true,
   "name": "queerjs-web",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
-    "build": "CI=true gatsby build",
+    "build": "gatsby build",
     "clean-cache": "gatsby clean",
     "dev": "npm run clean-cache && gatsby develop",
     "lint": "eslint .",
